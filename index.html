@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./app.js" defer></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h2>Inserindo E processando nDados en Tabela</h2>
+        </div>
+        <div class="parteSuperior">
+            <label>Nome:</label>
+            <input type="text">
+
+            <label>Data de Nascimento</label>
+            <input type="date">
+
+            <label>Funções</label>
+            <select name="Funções" class="Select">
+                <option value="Selecione a Função">Selecione a Função</option>
+            </select>
+            
+            <button>Inserir</button>
+        </div>
+        <div class="Tabela">
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Data de Nascimento</th>
+                        <th>Função</th>
+                        <th>Idade</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
